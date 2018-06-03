@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+
+# Define here the models for your scraped items
+#
+# See documentation in:
+# https://doc.scrapy.org/en/latest/topics/items.html
+
+import scrapy
+
+
+class ShowinfoItem(scrapy.Item):
+    museum=scrapy.Field()
+    name=scrapy.Field()
+    time=scrapy.Field()
+    address=scrapy.Field()
+    introduce=scrapy.Field()

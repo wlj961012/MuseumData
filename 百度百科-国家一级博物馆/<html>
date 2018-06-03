@@ -1,0 +1,9 @@
+<html>
+<head>
+</head>
+<body>
+<form>
+	<input type="text" placeholder="Text" name="text"/>
+</form>
+</body>
+</html>
